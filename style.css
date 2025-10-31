@@ -1,1 +1,53 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #0B3D2E;
+  color: white;
+}
+
+header {
+  padding: 10px;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: calc(100vh - 60px);
+}
+
+.sidebar {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+}
+
+.palette {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tile img {
+  width: 60px;
+  cursor: grab;
+}
+
+.canvas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tree-image {
+  max-height: 90%;
+}
+.placed {
+  position: absolute;
+  width: 60px;
+  cursor: grab;
+  }
 
